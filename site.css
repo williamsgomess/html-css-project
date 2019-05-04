@@ -1,0 +1,37 @@
+body {
+  font-family: 'Crimson Text', 'Time New Roman', serif;
+  background-color: #f2fffc;
+  font-size: 120%;
+}
+h1, h2 {
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
+main h1 {
+  text-align: center;
+  background-color: #851944;
+  color: #ffffff;
+}
+p {
+  text-align: justify;
+}
+blockquote {
+  background-color: #d9e5e3;
+}
+aside {
+  background-color: #3c1d3d;
+  color: #f2fffc;
+}
+footer {
+  background-color: #000000;
+  color: #f2fffc;
+}
+nav a {
+  color: #f2fffc;
+}
+main a {
+  color: #851944;
+}
+aside a {
+  color: inherit;
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
