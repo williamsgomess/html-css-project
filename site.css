@@ -2,6 +2,7 @@ body {
   font-family: 'Crimson Text', 'Time New Roman', serif;
   background-color: #f2fffc;
   font-size: 120%;
+  line-height: 1.5;
 }
 h1, h2 {
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
@@ -10,12 +11,17 @@ main h1 {
   text-align: center;
   background-color: #851944;
   color: #ffffff;
+  padding: 25px;
+  border-bottom: solid 10px #000000;
 }
 p {
   text-align: justify;
 }
 blockquote {
   background-color: #d9e5e3;
+  border: solid 10px #c2ccca;
+  width: 250px;
+  box-sizing: border-box;
 }
 aside {
   background-color: #3c1d3d;
@@ -34,4 +40,21 @@ main a {
 aside a {
   color: inherit;
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+  text-decoration: none;
+}
+blockquote, aside, footer {
+  padding: 20px;
+}
+main h1 {
+  
+}
+main div {
+  width: 720px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style-type: none;
+}
+aside {
+  text-align: center;
 }
